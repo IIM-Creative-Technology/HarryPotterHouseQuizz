@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <video id="fullscreen-video" autoplay muted loop id="ma-video">
+        <source src="assets/fumee.mp4" type="video/mp4"/>
+      </video>
+
+<div id="quiz">
+    <div class="quizIntro">
+        <div class="quizTitle-Image">
+            <img src="img/logo_choixpeau.jpg" alt="Logo Choixpeau" class="logoChoipeau">
+            <h1 class="quizTitle">Le test du Choixpeaux</h1>
+
+
+        </div>
+        <button class="quizStart" >commencer le quizz</button>
+    </div>
+
+
+    <div class="quizQuestion1">
+        <h2 class="question1">Qu'avez-vous hate de faire a Poudlard?</h2>
+        <div class="answerBox">
+            <button class="btn Poufsouffle1">J'ai hate de rencontrer plein de monde</button>
+            <button class="btn Serdaigle1">J'ai hate de commencer les cours</button>
+            <button class="btn Serpentard1">J'ai hate de surpasser les autres</button>
+            <button class="btn Gryffondor1">J'ai hate d'explorer l'ecole</button>
+        </div>
+    </div>
+    <div class="quizQuestion2">
+        <h2 class="question2">A quelle cours voulez-vous absolument assister ?</h2>
+        <div class="answerBox">
+            <button class="btn Poufsouffle2">Metamorphose</button>
+            <button class="btn Serdaigle2">Divination</button>
+            <button class="btn Serpentard2">Malefices</button>
+            <button class="btn Gryffondor2">Vol sur balai</button>
+        </div>
+    </div>
+    <div class="quizQuestion3">
+        <h2 class="question3">Sous quel nom prefereriez-vous entrer dans l'histoire ?</h2>
+        <div class="answerBox">
+            <button class="btn Poufsouffle3">Le Bon</button>
+            <button class="btn Serdaigle3">Le Sage</button>
+            <button class="btn Serpentard3">Le Grand</button>
+            <button class="btn Gryffondor3">Le Brave</button>
+        </div>
+    </div>
+    <div class="quizQuestion4">
+        <h2 class="question4">Qu'est-ce que vous avez le plus de mal a supporter ?</h2>
+        <div class="answerBox">
+            <button class="btn Poufsouffle4">La solitude</button>
+            <button class="btn Serdaigle4">L'ennui</button>
+            <button class="btn Serpentard4">L'echec</button>
+            <button class="btn Gryffondor4">La peur</button>
+        </div>
+    </div>
+    <div class="quizQuestion5">
+        <h2 class="question5">Quelle qualite vous correspond le plus ?</h2>
+        <div class="answerBox">
+            <button class="btn Poufsouffle5">Loyaute</button>
+            <button class="btn Serdaigle5">Curiosite</button>
+            <button class="btn Serpentard5">Ambition</button>
+            <button class="btn Gryffondor5">Courage</button>
+        </div>
+    </div>
+    <div class="quizResult">
+
+    </div>
+
+</div>
+<div class="Choixpeau">
+    <img src="img/Choipeau.png" alt="choixpeau" style="width: 600px;">
+</div>
+<!--
+Gryffondor : #7F0909 (rouge) et #FFD700 (or)
+Serpentard : #1A472A (vert) et #C0C0C0 (argent)
+Poufsouffle : #FDB813 (jaune) et #000000 (noir)
+Serdaigle : #222F5B (bleu) et #CD7F32 (bronze)
+-->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.9.3/tsparticles.confetti.bundle.min.js"></script>
+<script src="main.js"></script>
+</html>
